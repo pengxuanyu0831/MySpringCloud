@@ -17,3 +17,10 @@ eureka:
 spring:
   application:
     name: xlogserver
+  security:
+    user:
+      name: @eureka.user.name@
+      password: @eureka.user.password@
+  cloud:
+    config:
+      failfast: true

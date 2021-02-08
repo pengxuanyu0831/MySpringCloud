@@ -1,31 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd0dc423-da41-48ce-a38e-c9560f1b8d5a" name="Default Changelist" comment="" />
+    <list default="true" id="dd0dc423-da41-48ce-a38e-c9560f1b8d5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1oBYQd0bmnqTIDpcJs3OA02q4pM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="GrepConsole" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.XlogserverApplication">
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.peng.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XlogserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xlogserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.peng.xlogserver.XlogserverApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -53,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612761435775</updated>
-      <workItem from="1612761438783" duration="1250000" />
+      <workItem from="1612761438783" duration="8679000" />
     </task>
     <servers />
   </component>
@@ -61,41 +102,69 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1352" height="175" key="GridCell.Tab.0.bottom" timestamp="1612765875885">
+    <state x="343" y="127" key="#Project_Structure" timestamp="1612778259721">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
-    <state width="1352" height="175" key="GridCell.Tab.0.bottom/46.23.1394.877@46.23.1394.877" timestamp="1612765875885" />
-    <state width="1352" height="175" key="GridCell.Tab.0.center" timestamp="1612765875884">
+    <state x="343" y="127" key="#Project_Structure/46.23.1394.877@46.23.1394.877" timestamp="1612778259721" />
+    <state x="556" y="172" key="#com.intellij.ide.util.MemberChooser" timestamp="1612784808312">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
-    <state width="1352" height="175" key="GridCell.Tab.0.center/46.23.1394.877@46.23.1394.877" timestamp="1612765875884" />
-    <state width="1352" height="175" key="GridCell.Tab.0.left" timestamp="1612765875883">
+    <state x="556" y="172" key="#com.intellij.ide.util.MemberChooser/46.23.1394.877@46.23.1394.877" timestamp="1612784808312" />
+    <state width="1352" height="507" key="GridCell.Tab.0.bottom" timestamp="1612793318156">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
-    <state width="1352" height="175" key="GridCell.Tab.0.left/46.23.1394.877@46.23.1394.877" timestamp="1612765875883" />
-    <state width="1352" height="175" key="GridCell.Tab.0.right" timestamp="1612765875884">
+    <state width="1352" height="507" key="GridCell.Tab.0.bottom/46.23.1394.877@46.23.1394.877" timestamp="1612793318156" />
+    <state width="1352" height="507" key="GridCell.Tab.0.center" timestamp="1612793318155">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
-    <state width="1352" height="175" key="GridCell.Tab.0.right/46.23.1394.877@46.23.1394.877" timestamp="1612765875884" />
-    <state width="1352" height="175" key="GridCell.Tab.1.bottom" timestamp="1612765875889">
+    <state width="1352" height="507" key="GridCell.Tab.0.center/46.23.1394.877@46.23.1394.877" timestamp="1612793318155" />
+    <state width="1352" height="507" key="GridCell.Tab.0.left" timestamp="1612793318155">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
-    <state width="1352" height="175" key="GridCell.Tab.1.bottom/46.23.1394.877@46.23.1394.877" timestamp="1612765875889" />
-    <state width="1352" height="175" key="GridCell.Tab.1.center" timestamp="1612765875887">
+    <state width="1352" height="507" key="GridCell.Tab.0.left/46.23.1394.877@46.23.1394.877" timestamp="1612793318155" />
+    <state width="1352" height="507" key="GridCell.Tab.0.right" timestamp="1612793318155">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
-    <state width="1352" height="175" key="GridCell.Tab.1.center/46.23.1394.877@46.23.1394.877" timestamp="1612765875887" />
-    <state width="1352" height="175" key="GridCell.Tab.1.left" timestamp="1612765875886">
+    <state width="1352" height="507" key="GridCell.Tab.0.right/46.23.1394.877@46.23.1394.877" timestamp="1612793318155" />
+    <state width="1352" height="507" key="GridCell.Tab.1.bottom" timestamp="1612793318157">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
-    <state width="1352" height="175" key="GridCell.Tab.1.left/46.23.1394.877@46.23.1394.877" timestamp="1612765875886" />
-    <state width="1352" height="175" key="GridCell.Tab.1.right" timestamp="1612765875888">
+    <state width="1352" height="507" key="GridCell.Tab.1.bottom/46.23.1394.877@46.23.1394.877" timestamp="1612793318157" />
+    <state width="1352" height="507" key="GridCell.Tab.1.center" timestamp="1612793318156">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
-    <state width="1352" height="175" key="GridCell.Tab.1.right/46.23.1394.877@46.23.1394.877" timestamp="1612765875888" />
-    <state x="120" y="70" key="new project wizard" timestamp="1612761665307">
+    <state width="1352" height="507" key="GridCell.Tab.1.center/46.23.1394.877@46.23.1394.877" timestamp="1612793318156" />
+    <state width="1352" height="507" key="GridCell.Tab.1.left" timestamp="1612793318156">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
-    <state x="120" y="70" key="new project wizard/46.23.1394.877@46.23.1394.877" timestamp="1612761665307" />
+    <state width="1352" height="507" key="GridCell.Tab.1.left/46.23.1394.877@46.23.1394.877" timestamp="1612793318156" />
+    <state width="1352" height="507" key="GridCell.Tab.1.right" timestamp="1612793318156">
+      <screen x="46" y="23" width="1394" height="877" />
+    </state>
+    <state width="1352" height="507" key="GridCell.Tab.1.right/46.23.1394.877@46.23.1394.877" timestamp="1612793318156" />
+    <state width="1352" height="370" key="GridCell.Tab.2.bottom" timestamp="1612785279109">
+      <screen x="46" y="23" width="1394" height="877" />
+    </state>
+    <state width="1352" height="370" key="GridCell.Tab.2.bottom/46.23.1394.877@46.23.1394.877" timestamp="1612785279109" />
+    <state width="1352" height="370" key="GridCell.Tab.2.center" timestamp="1612785279109">
+      <screen x="46" y="23" width="1394" height="877" />
+    </state>
+    <state width="1352" height="370" key="GridCell.Tab.2.center/46.23.1394.877@46.23.1394.877" timestamp="1612785279109" />
+    <state width="1352" height="370" key="GridCell.Tab.2.left" timestamp="1612785279108">
+      <screen x="46" y="23" width="1394" height="877" />
+    </state>
+    <state width="1352" height="370" key="GridCell.Tab.2.left/46.23.1394.877@46.23.1394.877" timestamp="1612785279108" />
+    <state width="1352" height="370" key="GridCell.Tab.2.right" timestamp="1612785279109">
+      <screen x="46" y="23" width="1394" height="877" />
+    </state>
+    <state width="1352" height="370" key="GridCell.Tab.2.right/46.23.1394.877@46.23.1394.877" timestamp="1612785279109" />
+    <state x="244" y="100" key="SettingsEditor" timestamp="1612793090103">
+      <screen x="46" y="23" width="1394" height="877" />
+    </state>
+    <state x="244" y="100" key="SettingsEditor/46.23.1394.877@46.23.1394.877" timestamp="1612793090103" />
+    <state x="138" y="131" key="new project wizard" timestamp="1612778231430">
+      <screen x="46" y="23" width="1394" height="877" />
+    </state>
+    <state x="138" y="131" key="new project wizard/46.23.1394.877@46.23.1394.877" timestamp="1612778231430" />
   </component>
 </project>

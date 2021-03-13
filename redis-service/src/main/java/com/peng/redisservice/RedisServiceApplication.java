@@ -13,8 +13,7 @@ import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 
-@ComponentScan
-@SpringBootApplication(scanBasePackages = "com.peng.*")
+
 public class RedisServiceApplication {
 
 	public static void main(String[] args) {
@@ -22,7 +21,6 @@ public class RedisServiceApplication {
 	}
 
 
-	@Bean
 	public RedisTemplate<Object,Object> redisTemplate(RedisConnectionFactory redisConnectionFactory){
 		RedisTemplate<Object,Object> redisTemplate = new RedisTemplate<>();
 		redisTemplate.setConnectionFactory(redisConnectionFactory);

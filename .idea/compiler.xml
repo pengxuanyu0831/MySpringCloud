@@ -9,15 +9,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="xlogserver" />
         <module name="redis-service" />
+        <module name="mybatisservice" />
         <module name="esservice" />
         <module name="eureka" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatisservice" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="esservice" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="mybatisservice" options="-parameters" />
       <module name="redis-service" options="-parameters" />
       <module name="xlogserver" options="-parameters" />
     </option>

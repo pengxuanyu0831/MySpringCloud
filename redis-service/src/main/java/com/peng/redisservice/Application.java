@@ -13,7 +13,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  * @create: 2021/03/13 17:11
  */
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.peng.redisservice.*"})
 public class Application extends SpringBootServletInitializer {
 
 

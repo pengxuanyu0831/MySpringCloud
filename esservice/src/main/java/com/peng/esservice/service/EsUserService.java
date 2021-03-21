@@ -1,12 +1,16 @@
 package com.peng.esservice.service;
 
 import com.peng.esservice.config.mq.MqConstant;
+import com.peng.esservice.config.mq.ThreadPool;
 import com.peng.esservice.dao.EsUserDao;
 import com.peng.esservice.entity.EsUserEntity;
 import com.peng.esservice.utils.MqMessageSendUtils;
+import org.apache.rocketmq.common.ThreadFactoryImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.concurrent.*;
 
 /**
  * @program MySpringCloud
@@ -22,6 +26,9 @@ public class EsUserService {
 
     @Autowired
     public MqMessageSendUtils mqMessageSendUtils;
+
+    @Autowired
+    private ThreadPool threadPoolExecutor;
 
     @Transactional(rollbackFor = Exception.class)
     public Integer importEsUsers(EsUserEntity userEntity){

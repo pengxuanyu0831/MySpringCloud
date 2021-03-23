@@ -45,7 +45,7 @@ public class RedisUtils {
             jedis.select(indexdb);
             return jedis.set(key, value);
         }catch (Exception e){
-            log.info(e.getMessage());
+            log.info("报错内容为："+e.getMessage());
             return "0";
         }finally {
             returnResource(jedisPool,jedis);

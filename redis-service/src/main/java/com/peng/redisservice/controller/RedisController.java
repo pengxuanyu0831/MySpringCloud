@@ -4,6 +4,7 @@ import com.peng.redisservice.utils.RedisUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -21,14 +22,14 @@ public class RedisController {
     @Autowired
     private RedisUtils redisUtils;
 
-    @RequestMapping(value = "/getRedis",method = RequestMethod.POST)
+    @PostMapping(value = "/getRedis")
     @ResponseBody
     public String getRedis(){
         // redisUtils.set("00001","姓名:pengxuanyu 性别:男",0);
-        String res = redisUtils.get("0001",0);
+        String res = redisUtils.get("1111",0);
         return res;
     }
-    @RequestMapping(value = "setRedis",method = RequestMethod.POST)
+    @PostMapping(value = "setRedis")
     public void setRedis(){
         redisUtils.set("1111", "2222", 0);
         Long reExpire = redisUtils.expire("1111", 60, 0);

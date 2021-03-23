@@ -8,10 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="xlogserver" />
-        <module name="eureka" />
+        <module name="redis-service" />
         <module name="mybatisservice" />
         <module name="esservice" />
-        <module name="redis-service" />
+        <module name="eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

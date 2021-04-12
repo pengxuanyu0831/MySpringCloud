@@ -1,7 +1,8 @@
-package com.peng.base;
+package src.main.java.com.peng;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 
 @SpringBootApplication
 public class BaseApplication {

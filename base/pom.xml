@@ -74,6 +74,8 @@
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>2.1.1</version>
 		</dependency>
+
+
 		<!--自动注入getter setter -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -190,6 +192,12 @@
 			<groupId>org.freemarker</groupId>
 			<artifactId>freemarker</artifactId>
 			<version>2.3.30</version>
+		</dependency>
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-core</artifactId>
+			<version>1.6.3</version>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 
